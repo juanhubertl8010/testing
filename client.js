@@ -46,7 +46,7 @@ socket.on("message", (data) => {
             console.log(`${senderUsername}: ${senderMessage}`);
         }
     } else {
-        console.log(`Warning: Message from ${senderUsername} may have been tampered.`);
+        console.log(`the message may have been changed during transmission`);
     }
     rl.prompt();
 });
